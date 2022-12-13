@@ -1,0 +1,35 @@
+.contenedor{
+  width:100%;
+  height:auto;
+  position:relative;
+}
+.result{
+  font-size:1.5em;
+}
+button{
+  border:1px solid #333;
+  background:red;
+  color:#fff;
+  font-size:1.3em;
+}
+.pico{
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-top: 20px solid black;
+  margin:0;
+  z-index:99999;
+  position:absolute;
+  left:50%;
+  top:5px;
+  transform:translate(-50%,-55%);
+}
+#Rueda{
+  margin:0 auto;
+  width:220px;
+  height:220px;
+  background:transparent url('http://img05.deviantart.net/2474/i/2013/028/c/3/wcbs_1988_wheel_of_fortune_umbrella_by_germanname-d5t3w46.png') 0 0 no-repeat;
+  background-size:contain;
+}
